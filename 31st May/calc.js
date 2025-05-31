@@ -1,17 +1,17 @@
- function appendValue(value) {
-        document.getElementById('display').value += value;
-    }
+function appendValue(value) {
+    document.getElementById('display').value += value;
+}
 
-    function clearDisplay() {
-        document.getElementById('display').value = '';
-    }
+function clearDisplay() {
+    document.getElementById('display').value = '';
+}
 
-    function calculateResult() {
-        try {
-            const result = eval(document.getElementById('display').value);
-            document.getElementById('display').value = result;
-        } catch (e) {
-            alert('Invalid expression');
-            clearDisplay();
-        }
+function calculateResult() {
+    try {
+        const result = eval(document.getElementById('display').value);
+        document.getElementById('display').value = result;
+    } catch (e) {
+        alert('Invalid expression');
+        clearDisplay();
     }
+}
