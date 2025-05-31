@@ -1,11 +1,11 @@
 var num=5;
-console.log(num)
+console.log(num)//printing in console
 
 const a = 'This is kavin'
-console.log(a)
+console.log(a)//printing a string
 
 let b = 1*2+5/2%2
-console.log(b)
+console.log(b)//(/,%,*,+)
 
 let c=2.5%2
 console.log(c)
