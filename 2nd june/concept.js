@@ -6,3 +6,6 @@ if (age >= 18) {
 } else {
     console.log("You are a minor.");
 }
+// conditional operators
+let num = (5 > 3) ? "Five is greater than three." : "Three is greater than five.";
+console.log(num);
