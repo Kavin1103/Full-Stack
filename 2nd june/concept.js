@@ -37,3 +37,42 @@ let upperCaseFruits = fruits.map(function(fruit) {
 });
 console.log(upperCaseFruits); // Output: ["APPLE", "BANANA", "CHERRY"]
 
+//for in loop
+let person = {
+    name: "Alice",  
+    age: 30,
+    city: "New York"
+};
+for (let key in person) {
+    console.log(`${key}: ${person[key]}`);
+}
+// Output:
+// name: Alice
+// age: 30
+// city: New York
+// for of loop
+let numbers = [1, 2, 3, 4, 5];
+for (let number of numbers) {
+    console.log(number);
+}
+// Output:
+// 1
+// 2
+// 3
+// 4
+// 5
+// Multidimensional Arrays
+let matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+// Accessing elements in a multidimensional array
+console.log(matrix[0][0]); // Output: 1
+console.log(matrix[1][2]); // Output: 6
+// Adding a new row to the matrix
+matrix.push([10, 11, 12]);
+console.log(matrix); // Output: [[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]]
+// Removing the last row from the matrix
+matrix.pop();
+console.log(matrix); // Output: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
